@@ -6,6 +6,7 @@ group :development, :unit_tests do
   gem 'puppetlabs_spec_helper',  :require => false
   gem 'puppet-lint',             :require => false
   gem 'puppet_facts',            :require => false
+  gem 'puppet',                  :require => false
 end
 
 group :system_tests do
